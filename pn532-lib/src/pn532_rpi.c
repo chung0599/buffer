@@ -34,6 +34,11 @@
 #include <linux/i2c.h>
 #include <time.h>
 
+#include <stddef.h>
+#include <stdio.h>
+#include <time.h>
+#include <sys/sysinfo.h>
+
 #include "wiringPi.h"
 #include "wiringPiSPI.h"
 #include "wiringSerial.h"
